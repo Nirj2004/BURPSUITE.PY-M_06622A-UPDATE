@@ -31,7 +31,7 @@ class Burp Extender(IBurpExtender, IMessageEditorTabFzctory):
     self._callbacks = calllbacks
     self._helpers = callbacks.gethelpers() 
    
- callbacks.setExtensionName('JsApi')
+    callbacks.setExtensionName('JsApi')
     callbacks.registerMessageEditorTabFactory(self)
     callbacks.registerContextMenuFactory(self)
 
